@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "copy-scenario"
+version = "0.0.1"
+description = "Copy Scenario"
+authors = ["Manas Galipalli <manas@lyric.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+chainbrain = {git = "https://manas:glpat-UCA57mLNdsSUnxGGD1hx@gitlab.com/chainbrain/platform/chainbrain.git", rev = "1.0.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,16 @@
+[MASTER]
+
+extension-pkg-whitelist=pydantic
+
+
+[SIMILARITIES]
+
+# Ignore imports when computing similarities.
+ignore-imports=no
+
+# Minimum lines number of a similarity.
+min-similarity-lines=40
+
+[FORMAT]
+
+good-names=i,j,k,x,y,id
